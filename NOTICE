@@ -1,0 +1,25 @@
+Host↔运行时契约
+Contract between an AIOS Host and a runtime.
+
+Copyright 2026 Kevin AIOS（陈子恒）
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+本仓库只公开契约文档。它不是 Mentra、MentraOS 或其 SDK 的派生作品，
+也不包含运行时或 Host 实现。
+This repository publishes contract documentation only. It is not derived
+from Mentra, MentraOS, or their SDKs, and does not include runtime or
+Host implementations.
+
+商标 / Trademarks
+-----------------
+"Mentra"、"MentraOS" 及相关标识是其各自所有者的商标。本仓库及其衍生作品
+不得使用 Mentra 商标作为产品名、包名或品牌，也不得暗示与 Mentra 存在
+关联或获得其认可。Apache-2.0 第 6 条不授予商标使用权。契约正文若提及
+Mentra，仅用于标明不纳入本契约的排除项。
+"Mentra", "MentraOS" and related marks are trademarks of their respective
+owners. This repository and derivative works must not use the Mentra
+trademarks as a product, package or brand name, or imply affiliation with
+or endorsement by Mentra. Section 6 of the Apache License 2.0 grants no
+trademark rights. Any mention of Mentra in the contract text is only to
+name a surface excluded from this contract.
