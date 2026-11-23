@@ -502,3 +502,5 @@ Glass 入口，前缀 `/api/v1/glass`。指针：`KevinAIOS/AIOS-new-` 提交 `4
 本契约不是 Mentra 或其 SDK 的派生文档。
 
 章节到此结束。稳定面、不承诺行为、不进本契约、留云调用类型、版本约定、与两份已公开契约的边界和四套词表、未核对项均已写明，没有未声明的剩余章节。
+
+第二批厂商面 API 文档见 [docs/api/README.md](api/README.md)。

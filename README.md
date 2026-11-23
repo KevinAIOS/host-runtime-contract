@@ -10,6 +10,8 @@ AIOS Host 与运行时之间的契约。仓库：https://github.com/KevinAIOS/ho
 
 **Host ↔ 运行时契约**：Host 和运行时怎么配合，保住「前端现实、后端订阅」——Host 持有现实世界的信号与轨迹，运行时订阅并被叫醒，而不是由运行时自己占有传感器。完整正文见 [docs/Host运行时契约.md](docs/Host运行时契约.md)。
 
+**第二批 API 文档**：面向 Host 与运行时实现方的厂商面目录，见 [docs/api/](docs/api/README.md)。它对照契约 v0.1.0，不改契约正文里的分桶、计数或冻结点。
+
 冻结集：16 类去重主合计 **238**（拟冻结 **91**，形状保留不冻 **147**）。另有 7 个 Host↔运行时能力名拟冻结，不与 238 相加。`@aios/runtime-client` 是 Host 连接运行时的协议客户端，只计类，方法不与上述合计相加；本仓库不开放该包的源码，也不发 npm。
 
 它**不是**：
@@ -17,7 +19,7 @@ AIOS Host 与运行时之间的契约。仓库：https://github.com/KevinAIOS/ho
 - **不是设备契约**：Host ↔ 眼镜怎么说话，见 [KevinAIOS/glass-contract](https://github.com/KevinAIOS/glass-contract)。
 - **不是体验编写面契约**：开发者怎么写 Experience，见 [glass-sdk 的体验编写面契约](https://github.com/KevinAIOS/glass-sdk/blob/main/docs/%E4%BD%93%E9%AA%8C%E7%BC%96%E5%86%99%E9%9D%A2%E5%A5%91%E7%BA%A6.md)。
 - **不是运行时或 Host 实现**：私有工程仓仍是私有，本仓不开放 Reality Runtime、Agent Runtime、完整 HAL／Host，也不开放 `@aios/runtime-client`。
-- **不是 npm 发布**，也不是第二批约 16 类 API 的对外文档。
+- **不是 npm 发布**，也不是运行时或 Host 源码。第二批厂商面 API 文档见 [docs/api/](docs/api/README.md)。
 
 ## 版本与冻结点
 
