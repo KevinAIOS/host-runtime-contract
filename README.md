@@ -2,7 +2,7 @@
 
 AIOS Host 与运行时之间的契约。仓库：https://github.com/KevinAIOS/host-runtime-contract
 
-许可为 [Apache-2.0](LICENSE)。契约版本是 **v0.1.0**。本仓库只公开契约文档，不开放运行时或 Host 实现，也不发布 npm 包。
+许可为 [Apache-2.0](LICENSE)。契约版本是 **v0.1.0**。本仓库只公开契约文档，也不发布 npm 包。Reality Runtime 的最小核心实现见单独的公开仓库 [KevinAIOS/reality-runtime](https://github.com/KevinAIOS/reality-runtime)；Agent Runtime 与完整 HAL／Host 仍未开放。
 
 本契约 v0.1.0 与已公开的 [glass-contract](https://github.com/KevinAIOS/glass-contract)（设备契约）和 [glass-sdk](https://github.com/KevinAIOS/glass-sdk)（体验编写面契约 / 第一版 SDK）的标签或契约 `v0.1.0` **不是同一份**，也与 `@aios/glass` 0.5.0、`@aios/glass-cli` 0.2.0 不是一回事。若为本仓库打 git 标签，使用 `contract-v0.1.0`，不要只用 `v0.1.0`。
 
@@ -18,7 +18,7 @@ AIOS Host 与运行时之间的契约。仓库：https://github.com/KevinAIOS/ho
 
 - **不是设备契约**：Host ↔ 眼镜怎么说话，见 [KevinAIOS/glass-contract](https://github.com/KevinAIOS/glass-contract)。
 - **不是体验编写面契约**：开发者怎么写 Experience，见 [glass-sdk 的体验编写面契约](https://github.com/KevinAIOS/glass-sdk/blob/main/docs/%E4%BD%93%E9%AA%8C%E7%BC%96%E5%86%99%E9%9D%A2%E5%A5%91%E7%BA%A6.md)。
-- **不是运行时或 Host 实现**：私有工程仓仍是私有，本仓不开放 Reality Runtime、Agent Runtime、完整 HAL／Host，也不开放 `@aios/runtime-client`。
+- **不是运行时或 Host 实现**：本仓库只放契约文档。Reality Runtime 的最小核心实现见 [KevinAIOS/reality-runtime](https://github.com/KevinAIOS/reality-runtime)。Agent Runtime、完整 HAL／Host 和 `@aios/runtime-client` 仍未开放。私有工程仓仍是私有。
 - **不是 npm 发布**，也不是运行时或 Host 源码。第二批厂商面 API 文档见 [docs/api/](docs/api/README.md)。
 
 ## 版本与冻结点
